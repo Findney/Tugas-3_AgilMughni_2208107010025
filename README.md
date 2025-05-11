@@ -33,7 +33,8 @@ project-root/
 │   └── requirements.txt
 ├── model/
 │   └── best_transfer.h5 # Model hasil training yang disimpan
-└── README.md
+├── README.md
+└── notebook.ipynb
 ```
 
 ---
