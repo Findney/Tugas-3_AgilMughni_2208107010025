@@ -26,15 +26,14 @@ Model yang dilatih kemudian akan diintegrasikan ke dalam aplikasi backend berbas
 ```
 project-root/
 ├── backend/
-│   └── main.py         # Kode backend FastAPI
+│   ├── main.py         # Kode backend FastAPI
+│   └── requirements.txt
+├── frontend/
+│   ├── main.py         # Kode backend FastAPI
+│   └── requirements.txt
 ├── model/
 │   └── best_transfer.h5 # Model hasil training yang disimpan
-├── dataset/
-│   ├── rock/
-│   ├── paper/
-│   └── scissor/
-├── README.md
-└── requirements.txt
+└── README.md
 ```
 
 ---
